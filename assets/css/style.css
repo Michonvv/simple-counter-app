@@ -1,0 +1,128 @@
+
+/* CSS */
+  @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+  .increment-button {
+  appearance: button;
+  background-color: #000;
+  background-image: none;
+  border: 1px solid #000;
+  border-radius: 4px;
+  box-shadow: #3d3a3a 4px 4px 0 0,#000 4px 4px 0 1px;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  margin: 0 5px 10px 0;
+  overflow: visible;
+  padding: 12px 40px;
+  text-align: center;
+  text-transform: none;
+  touch-action: manipulation;
+  user-select: none;
+  -webkit-user-select: none;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+
+.increment-button:focus {
+  text-decoration: none;
+}
+
+.increment-button:hover {
+  text-decoration: none;
+}
+
+.increment-button:active {
+  box-shadow: rgba(0, 0, 0, .125) 0 3px 5px inset;
+  outline: 0;
+}
+
+.increment-button:not([disabled]):active {
+  box-shadow: #161616 2px 2px 0 0, #000 2px 2px 0 1px;
+  transform: translate(2px, 2px);
+}
+
+@media (min-width: 768px) {
+  .increment-button {
+    padding: 12px 50px;
+  }
+}
+
+body {
+    font-family: 'Source Code Pro', monospace;
+    font-size: xx-large;
+    color: #fff; /* White text color for better visibility */
+    background: linear-gradient(to bottom, #000, #1f1f1f);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* 100% viewport height to center vertically */
+    position: relative; /* Add this to make the logo positioning relative to the body */
+}
+
+
+/* Logo styles */
+.logo {
+    position: absolute; /* Position the logo relative to the body */
+    top: 10px; /* Adjust the top position as needed */
+    left: 10px; /* Adjust the left position as needed */
+    width: 50px; /* Adjust the width of the logo as needed */
+    height: auto; /* Maintain aspect ratio */
+}
+
+/* Footer background color */
+.footer1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #161616; /* Adjust the background color as needed */
+  padding: 5px 20px; /* Adjust padding as needed */
+  height: 50px; /* Adjust the height as needed */
+}
+
+.footer2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #161616; /* Adjust the background color as needed */
+  padding: 5px 20px; /* Adjust padding as needed */
+  height: 50px; /* Adjust the height as needed */
+}
+
+.footer3 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #161616; /* Adjust the background color as needed */
+  padding: 5px 20px; /* Adjust padding as needed */
+  height: 50px; /* Adjust the height as needed */
+}
+
+.icon {
+    font-size: 2rem;
+    color: #fff;
+}
+
+.lock {
+    font-size: 2rem;
+    color: #fff;
+    position: fixed;
+    top: 10px;
+    right: 10px;
+}
