@@ -1,27 +1,22 @@
 {
-    "name": "MullerCounter",
+    "name": "Muller Counter",
     "short_name": "MullerCounter",
     "start_url": "index.html",
-    "display": "standalone",
-    "background_color": "#00000",
-    "theme_color": "#00000",
-    "orientation": "portrait-primary",
+    "scope": "./",
     "icons": [
-      {
-        "src": "assets/icons/rsz_icon.jpg",
-        "type": "image/png", "sizes": "72x72"
-      },
-      {
-        "src": "assets/icons/rsz_1icon.jpg",
-        "type": "image/png", "sizes": "96x96"
-      },
-      {
-        "src": "assets/icons/rsz_2icon.jpg",
-        "type": "image/png","sizes": "128x128"
-      },
-      {
-        "src": "assets/icons/rsz_3icon.jpg",
-        "type": "image/png", "sizes": "144x144"
-      }
-    ]
+        {
+            "src":"rsz_1icon.png",
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "any maskable"
+          },
+          {
+            "src":"rsz_icon.png",
+            "sizes": "512x512A",
+            "type": "image/png"
+          }
+    ],
+    "theme_color": "#49A5E8",
+    "background_color": "#11191F",
+    "display": "standalone"
   }
