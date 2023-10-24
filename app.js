@@ -1,12 +1,6 @@
         // Initialize Firebase with your configuration
         const firebaseConfig = {
-            apiKey: "AIzaSyBjicHoucd6waqF9w9w7PSnoiUnBiki250",
-            authDomain: "mullercounter-8bf11.firebaseapp.com",
-            projectId: "mullercounter-8bf11",
-            storageBucket: "mullercounter-8bf11.appspot.com",
-            messagingSenderId: "945362990391",
-            appId: "1:945362990391:web:de4b669b6c48b5cd8c96b2",
-            databaseURL: "https://mullercounter-8bf11-default-rtdb.europe-west1.firebasedatabase.app/" // Add your Firebase Realtime Database URL here
+// EMPTY FOR PRIVACY REASONS!
         };
         firebase.initializeApp(firebaseConfig);
 
