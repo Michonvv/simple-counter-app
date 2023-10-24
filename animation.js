@@ -15,3 +15,13 @@ gsap.from(".login", { opacity: 0, y: -50, duration: 0.2, delay: 0.5 });
 gsap.from(".fillin", { opacity: 0, y: -50, duration: 0.2, delay: 0.3});
 gsap.from(".submit", { opacity: 0, y: -50, duration: 0.2});
 
+function checkPassword() {
+    var passwordInput = document.getElementById("password").value;
+    if (passwordInput === "Demo-password") {
+        // Correct password, redirect to a different page
+        window.location.href = "admin.html";
+    } else {
+        // Incorrect password, show an error message (optional)
+        alert("Wrong password. Please try again.");
+    }
+}
