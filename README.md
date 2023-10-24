@@ -1,6 +1,6 @@
 <div align="center">
   <h1>Counter App with Realtime Firebase Integration</h1>
-  <img src="screenshot.png" alt="App Screenshot">
+  <img src="screenshot.png" alt="App Screenshot" width="50%" height="auto">
 </div>
 
 ## Description
@@ -47,7 +47,7 @@ To reset the counter, follow these steps:
 
 ## Demo
 
-Witness the beauty of our Counter App in action by checking out the live demo [here](#).
+Witness the beauty of our Counter App in action by checking out the live demo [here](https://mullercounter.netlify.app/).
 
 ## Credits
 
